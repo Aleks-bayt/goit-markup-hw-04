@@ -161,7 +161,6 @@ address {
 .hero {
   width: 1440px;
   height: 600px;
-
   padding: 188px 0;
   background-color: #2e2f42;
   background-image: linear-gradient(
@@ -223,6 +222,17 @@ address {
 .strengths-list {
   width: calc((100% - 72px) / 4);
 }
+.strengths-icon{
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  
+}
+
 .strengths-list-title {
   color: #2e2f42;
   font-size: 20px;
