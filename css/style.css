@@ -118,14 +118,13 @@ address {
 }
 .heder-list-link::after {
   content: "";
-  width: 48px;
-  height: 4px;
-  border-radius: 2px;
-  background: var(--OCEAN, #404bbf);
-  display: block;
   position: absolute;
   left: 0;
   bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+  background: var(--OCEAN, #404bbf);
 }
 
 .heder-list-link:hover,
